@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '4.0.0'
+gem 'rails', '6.0.3.5'
 
 # Use sqlite3 as the database for Active Record
 # gem 'sqlite3'
@@ -50,6 +50,6 @@ end
 # gem 'debugger', group: [:development, :test]
 
 gem 'paymill'
-#gem 'twitter-bootstrap-rails', :git => 'git://github.com/seyhunak/twitter-bootstrap-rails.git'
+#gem 'twitter-bootstrap-rails', '>= 2.2.7', :git => 'git://github.com/seyhunak/twitter-bootstrap-rails.git'
 gem 'twitter-bootstrap-rails'
 
