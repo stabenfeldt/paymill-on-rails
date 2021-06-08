@@ -50,6 +50,6 @@ end
 # gem 'debugger', group: [:development, :test]
 
 gem 'paymill'
-#gem 'twitter-bootstrap-rails', :git => 'git://github.com/seyhunak/twitter-bootstrap-rails.git'
+#gem 'twitter-bootstrap-rails', '>= 2.2.7', :git => 'git://github.com/seyhunak/twitter-bootstrap-rails.git'
 gem 'twitter-bootstrap-rails'
 
