@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '4.0.0'
+gem 'rails', '7.0.0'
 
 # Use sqlite3 as the database for Active Record
 # gem 'sqlite3'
@@ -12,7 +12,7 @@ group :production do
 end
 
 # Use SCSS for stylesheets
-gem 'sass-rails', '~> 4.0.0'
+gem 'sass-rails', '~> 6.0.0'
 
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
@@ -27,7 +27,7 @@ gem 'coffee-rails', '~> 4.0.0'
 gem 'jquery-rails'
 
 # Turbolinks makes following links in your web application faster. Read more: https://github.com/rails/turbolinks
-gem 'turbolinks'
+gem 'turbolinks', '>= 5.0.0'
 
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder', '~> 1.2'
@@ -50,6 +50,6 @@ end
 # gem 'debugger', group: [:development, :test]
 
 gem 'paymill'
-#gem 'twitter-bootstrap-rails', :git => 'git://github.com/seyhunak/twitter-bootstrap-rails.git'
+#gem 'twitter-bootstrap-rails', '>= 3.2.2', :git => 'git://github.com/seyhunak/twitter-bootstrap-rails.git'
 gem 'twitter-bootstrap-rails'
 
